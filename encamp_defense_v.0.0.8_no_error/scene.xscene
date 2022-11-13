@@ -1,0 +1,4535 @@
+<?xml version="1.0"?>
+<scene name="encamp_defense_v.0.0.8_no_error" version="2">
+	<flora_bounding_rect min="67.837, 37.057" max="371.738, 291.641"/>
+	<levels>
+		<level name="base" mask="1"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="true"/>
+		<property name="physics_world_min" value="-774.619, -527.003"/>
+		<property name="physics_world_max_" value="400.000, 400.000"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="6.800"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<property name="gi_data_exists" value="false"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="1.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="-100.000"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="false"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity prefab="flag_pole_big_sergeant_A">
+			<transform position="245.174, 150.607, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="arrow_barrel">
+			<transform position="229.177, 166.094, 0.000" rotation_euler="0.000, 0.000, -0.430"/>
+		</game_entity>
+		<game_entity prefab="sp_battle_set">
+			<transform position="232.468, 151.910, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-63.800, -49.358, 0.449" rotation_euler="0.000, 0.000, -0.673"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<transform position="-62.509, -49.984, 0.449" rotation_euler="0.000, 0.000, -0.673"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<transform position="-61.092, -50.629, 0.449" rotation_euler="0.000, 0.000, -0.673"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<transform position="-59.789, -51.224, 0.449" rotation_euler="0.000, 0.000, -0.673"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<transform position="-62.789, -47.172, 0.449" rotation_euler="0.000, 0.000, -0.673"/>
+				</game_entity>
+				<game_entity _index_="9">
+					<transform position="-61.498, -47.798, 0.449" rotation_euler="0.000, 0.000, -0.673"/>
+				</game_entity>
+				<game_entity _index_="10">
+					<transform position="-60.081, -48.444, 0.449" rotation_euler="0.000, 0.000, -0.673"/>
+				</game_entity>
+				<game_entity _index_="11">
+					<transform position="-58.778, -49.039, 0.449" rotation_euler="0.000, 0.000, -0.673"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="300.867, 248.791, 0.340" rotation_euler="0.016, -0.003, 2.026"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="295.772, 252.140, 0.340" rotation_euler="0.016, -0.003, 2.026"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="300.867, 258.471, 0.340" rotation_euler="0.016, -0.003, 2.026"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="342.270, 185.183, 0.426" rotation_euler="-0.006, -0.005, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="342.694, 179.331, 0.158" rotation_euler="0.017, -0.003, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="320.191, 225.226, 0.351" rotation_euler="0.000, -0.007, 1.163"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_d">
+			<transform position="223.496, 170.869, 0.000" rotation_euler="0.000, 0.000, 0.431"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="300.305, 252.009, 0.158" rotation_euler="0.000, 0.000, 2.393"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="326.382, 189.011, 0.158" rotation_euler="0.018, -0.005, 1.611"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="318.541, 181.273, 0.340" rotation_euler="0.018, -0.005, 1.611"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="323.636, 177.924, 0.340" rotation_euler="0.018, -0.005, 1.611"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="320.094, 185.183, 0.426" rotation_euler="0.018, -0.005, 1.611"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="326.382, 179.331, 0.158" rotation_euler="0.018, -0.005, 1.611"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="237.628, 275.181, 0.340" rotation_euler="0.016, -0.003, 2.741"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="242.722, 271.832, 0.340" rotation_euler="0.016, -0.003, 2.741"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="261.424, 267.987, 0.158" rotation_euler="0.016, -0.003, 2.741"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="245.044, 279.091, 0.426" rotation_euler="-0.006, -0.004, 2.740"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="259.447, 250.570, 0.340" rotation_euler="-0.006, -0.004, 2.025"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="274.990, 266.580, 0.340" rotation_euler="0.015, 0.000, 3.053"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="267.288, 258.307, 0.158" rotation_euler="-0.006, -0.004, 2.740"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="271.448, 264.160, 0.426" rotation_euler="0.015, 0.000, 3.053"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="269.896, 260.250, 0.340" rotation_euler="0.015, 0.000, 3.053"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="277.737, 267.987, 0.158" rotation_euler="0.015, 0.000, 3.053"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="274.990, 256.901, 0.340" rotation_euler="0.015, 0.000, 3.053"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="271.448, 273.840, 0.426" rotation_euler="0.015, 0.000, 3.053"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="275.951, 72.440, 0.340" rotation_euler="0.022, 0.002, 0.970"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="287.169, 66.110, 0.340" rotation_euler="0.022, 0.002, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="298.127, 72.440, 0.340" rotation_euler="0.000, 0.000, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="281.814, 72.440, 0.340" rotation_euler="0.000, 0.000, 0.970"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="292.263, 82.120, 0.340" rotation_euler="0.022, 0.002, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="278.697, 83.526, 0.158" rotation_euler="0.022, 0.002, 0.970"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="270.856, 75.789, 0.340" rotation_euler="0.022, 0.002, 0.970"/>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="no_shadow" value="true"/>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<transform position="99.287, 13.195, 5.000" rotation_euler="0.000, 0.000, 1.742"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="284.560, 73.847, 0.158" rotation_euler="0.000, 0.000, 0.970"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="276.719, 66.110, 0.340" rotation_euler="0.000, 0.000, 0.970"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="278.272, 79.699, 0.426" rotation_euler="0.000, 0.000, 0.970"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="296.378, 93.205, 0.351" rotation_euler="0.000, 0.000, 0.838"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="316.822, 119.447, 0.340" rotation_euler="0.016, -0.003, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="333.904, 113.116, 0.340" rotation_euler="-0.007, -0.002, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="313.280, 126.706, 0.426" rotation_euler="0.016, -0.003, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="334.158, 136.066, 0.351" rotation_euler="-0.004, -0.006, 1.505"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="311.728, 113.116, 0.340" rotation_euler="0.016, -0.003, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="319.569, 120.853, 0.158" rotation_euler="0.016, -0.003, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="341.745, 120.853, 0.158" rotation_euler="-0.007, -0.002, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="335.456, 126.706, 0.426" rotation_euler="-0.007, -0.002, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="329.593, 136.386, 0.426" rotation_euler="0.015, 0.000, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="335.881, 120.853, 0.158" rotation_euler="0.015, 0.000, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="328.040, 113.116, 0.340" rotation_euler="0.015, 0.000, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="338.998, 119.447, 0.340" rotation_euler="-0.007, -0.002, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="328.040, 122.796, 0.340" rotation_euler="0.015, 0.000, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="272.409, 79.699, 0.426" rotation_euler="0.022, 0.002, 0.970"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="250.154, 76.184, 0.426" rotation_euler="0.022, 0.002, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="253.696, 59.245, 0.340" rotation_euler="0.022, 0.002, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="237.384, 68.925, 0.340" rotation_euler="0.022, 0.002, 0.555"/>
+		</game_entity>
+		<game_entity prefab="arrow_barrel">
+			<transform position="250.463, 150.059, 1.901" rotation_euler="0.000, 0.000, 0.188"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="245.090, 193.790, 0.000" rotation_euler="0.000, 0.000, 0.981"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="248.878, 171.435, -9.209" rotation_euler="0.000, 0.000, -0.853"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="244.326, 141.161, -9.674" rotation_euler="-0.013, -0.002, -2.602"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="250.950, 146.996, -9.668" rotation_euler="-0.013, 0.000, -2.229"/>
+		</game_entity>
+		<game_entity prefab="crate_c">
+			<transform position="217.554, 167.475, 0.000" rotation_euler="0.000, 0.000, -2.330"/>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="no_shadow" value="true"/>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<transform position="20.000, 0.000, 5.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_b">
+			<transform position="218.808, 165.157, 0.000" rotation_euler="0.000, 0.000, 1.041"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_a">
+			<transform position="231.496, 170.345, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_b">
+			<transform position="246.552, 159.185, 0.000" rotation_euler="0.000, 0.000, -1.097"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="67.837, 141.678, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="252.816, 187.034, 0.000" rotation_euler="0.000, 0.000, 2.858"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="burning_campfire_big">
+			<transform position="231.856, 160.547, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_d">
+			<transform position="221.834, 146.608, 0.000" rotation_euler="0.000, 0.000, -0.400"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="219.705, 141.213, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_b">
+			<transform position="217.777, 141.331, 0.753" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_b">
+			<transform position="219.461, 142.026, 1.536" rotation_euler="1.519, -3.141, 2.856"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="295.009, 73.847, 0.158" rotation_euler="0.022, 0.002, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="275.951, 82.120, 0.340" rotation_euler="0.022, 0.002, 0.970"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="295.009, 83.526, 0.158" rotation_euler="0.022, 0.002, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="278.697, 73.847, 0.158" rotation_euler="0.022, 0.002, 0.970"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="292.263, 72.440, 0.340" rotation_euler="0.022, 0.002, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="288.721, 89.379, 0.426" rotation_euler="0.022, 0.002, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="293.287, 89.059, 0.351" rotation_euler="0.000, 0.000, 0.523"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="294.584, 79.699, 0.426" rotation_euler="0.000, 0.000, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="293.032, 66.110, 0.340" rotation_euler="0.000, 0.000, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="300.873, 73.847, 0.158" rotation_euler="0.000, 0.000, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="270.856, 66.110, 0.340" rotation_euler="0.022, 0.002, 0.970"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="153.194, 185.963, 0.158" rotation_euler="0.030, 0.002, -1.977"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="145.353, 178.226, 0.340" rotation_euler="0.030, 0.002, -1.977"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="146.906, 191.815, 0.426" rotation_euler="0.030, 0.002, -1.977"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="167.184, 201.571, 0.158" rotation_euler="0.030, 0.002, -1.977"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="164.438, 200.165, 0.340" rotation_euler="0.030, 0.002, -1.977"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="163.681, 207.424, 0.426" rotation_euler="0.030, 0.002, -1.977"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="159.343, 193.834, 0.340" rotation_euler="0.030, 0.002, -1.977"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="167.223, 211.870, 0.340" rotation_euler="0.030, 0.002, -2.445"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="163.681, 219.129, 0.426" rotation_euler="0.030, 0.002, -2.445"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="169.969, 213.276, 0.158" rotation_euler="0.030, 0.002, -2.445"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="162.128, 205.539, 0.340" rotation_euler="0.030, 0.002, -2.445"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="173.598, 219.129, 0.426" rotation_euler="0.030, 0.002, -2.445"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="172.046, 205.539, 0.340" rotation_euler="0.030, 0.002, -2.445"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="177.140, 211.870, 0.340" rotation_euler="0.030, 0.002, -2.445"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="151.217, 150.921, 0.340" rotation_euler="0.000, 0.000, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="152.769, 164.510, 0.426" rotation_euler="0.000, 0.000, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="159.058, 158.658, 0.158" rotation_euler="0.000, 0.000, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="156.312, 157.251, 0.340" rotation_euler="0.000, 0.000, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="153.024, 187.460, 0.404" rotation_euler="0.000, 0.000, -2.400"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="151.472, 173.871, 0.351" rotation_euler="0.000, 0.000, -2.400"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="156.566, 180.201, 0.351" rotation_euler="0.000, 0.000, -2.400"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="160.924, 183.085, 0.567" rotation_euler="0.000, 0.000, -2.400"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="153.194, 158.658, 0.158" rotation_euler="0.022, 0.002, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="146.906, 164.510, 0.426" rotation_euler="0.022, 0.002, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="145.353, 150.921, 0.340" rotation_euler="0.022, 0.002, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="150.448, 157.251, 0.340" rotation_euler="0.022, 0.002, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="150.448, 166.931, 0.340" rotation_euler="0.022, 0.002, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="146.906, 174.190, 0.426" rotation_euler="0.022, 0.002, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="145.353, 160.600, 0.340" rotation_euler="0.022, 0.002, -1.640"/>
+		</game_entity>
+		<game_entity prefab="adam_0">
+			<transform position="218.951, 120.253, 0.000" rotation_euler="0.000, 0.000, -2.182"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="208.623, 152.203, -9.272" rotation_euler="0.004, 0.007, 1.639"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="308.567, 277.148, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="adam_0">
+			<transform position="236.305, 136.197, 0.000" rotation_euler="0.000, 0.000, -3.068"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="238.804, 157.367, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="239.389, 158.212, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="240.148, 157.508, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="239.989, 158.100, 0.220" rotation_euler="-0.002, 0.479, 0.991"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="239.349, 157.906, 0.230" rotation_euler="-0.002, 0.479, 1.604"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="239.036, 158.022, 0.613" rotation_euler="0.112, -0.226, 3.108"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="237.978, 159.345, 0.086" rotation_euler="0.112, -0.226, -1.956"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="237.941, 158.797, 0.661" rotation_euler="0.112, -0.226, -1.469"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="237.242, 158.046, 0.086" rotation_euler="0.112, -0.226, -1.469"/>
+		</game_entity>
+		<game_entity name="battania_platform_a" old_prefab_name="battania_platform_a">
+			<transform position="219.593, 142.755, -2.021" rotation_euler="0.000, 0.000, 2.721"/>
+			<children>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-8.829, -1.001, 0.156" rotation_euler="0.000, -0.552, -1.304" scale="2.550, 2.550, 1.279"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_c" old_prefab_name="wooden_platform_c">
+					<transform position="-7.058, -1.361, 0.696" rotation_euler="-0.076, -1.831, -1.429"/>
+					<physics shape="bo_wooden_platform_c"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_fence_b" old_prefab_name="wooden_platform_fence_b">
+					<transform position="-0.106, -0.165, -0.645" rotation_euler="-0.158, 0.000, 3.133"/>
+					<physics shape="bo_wooden_platform_fence_b"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_fence_b" old_prefab_name="wooden_platform_fence_b">
+					<transform position="-1.845, 0.408, 3.038" rotation_euler="0.154, 3.026, 2.724"/>
+					<physics shape="bo_wooden_platform_fence_b"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_plank_a" old_prefab_name="wooden_platform_plank_a">
+					<transform position="-3.319, 0.097, 2.418" rotation_euler="0.746, 1.438, 1.821"/>
+					<physics shape="bo_wooden_platform_plank_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_plank_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_plank_a" old_prefab_name="wooden_platform_plank_a">
+					<transform position="4.521, 1.693, 4.229" rotation_euler="1.201, -0.864, -2.187"/>
+					<physics shape="bo_wooden_platform_plank_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_plank_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_fence_a" old_prefab_name="wooden_platform_fence_a">
+					<transform position="7.124, 1.283, 3.344" rotation_euler="0.000, 0.000, 2.901"/>
+					<physics shape="bo_wooden_platform_fence_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_fence_b" old_prefab_name="wooden_platform_fence_b">
+					<transform position="1.866, 1.273, 3.262" rotation_euler="0.000, 0.000, -3.034"/>
+					<physics shape="bo_wooden_platform_fence_b"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_c" old_prefab_name="wooden_platform_c">
+					<transform position="2.078, 0.027, 1.322" rotation_euler="0.426, 1.660, 1.684"/>
+					<physics shape="bo_wooden_platform_c"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_b" old_prefab_name="wooden_platform_b">
+					<transform position="1.263, -0.597, 0.604" rotation_euler="0.048, 1.773, 1.693"/>
+					<physics shape="bo_wooden_platform_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_b" old_prefab_name="wooden_platform_b">
+					<transform position="6.819, -1.097, 2.994" rotation_euler="-0.012, -0.025, 3.037"/>
+					<physics shape="bo_wooden_platform_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-7.700, -1.525, -0.644" rotation_euler="0.000, 0.437, 1.522" scale="1.000, 1.000, 1.499"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-2.198, 0.299, -0.875" rotation_euler="0.000, 0.000, 0.303" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-1.926, 0.477, 0.493" rotation_euler="0.000, -0.077, -2.225" scale="1.422, 1.422, 1.547"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="3.755, 1.542, 0.630" rotation_euler="-0.207, -0.222, -0.187" scale="2.550, 2.550, 1.821"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="2.542, 1.460, 0.043" rotation_euler="0.013, -0.277, -1.850" scale="2.550, 2.550, 2.138"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="4.082, 0.923, 0.541" rotation_euler="-0.069, 0.180, 0.920" scale="1.000, 1.000, 1.499"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="5.567, 0.006, -0.749" rotation_euler="-0.190, 0.037, -0.095" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="7.233, -0.546, -0.895" rotation_euler="0.192, 0.019, 2.754" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="8.436, -1.216, 0.204" rotation_euler="0.000, 0.000, -1.817" scale="1.771, 1.771, 1.771"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="8.605, -0.667, 0.432" rotation_euler="0.024, -0.196, -2.639" scale="1.000, 1.000, 1.499"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-2.662, -0.017, -1.329" rotation_euler="0.000, 0.000, -1.167" scale="1.771, 1.771, 1.771"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-2.773, 0.926, 0.029" rotation_euler="0.000, 0.000, -1.907" scale="1.000, 1.000, 0.852"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-3.289, -0.088, -1.206" rotation_euler="0.000, 0.000, 0.303" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_c" old_prefab_name="barn_fence_c">
+					<transform position="-4.644, 1.425, 1.778" rotation_euler="-0.029, 1.635, -1.347"/>
+					<physics shape="bo_barn_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_a" old_prefab_name="barn_fence_a">
+					<transform position="-4.339, 0.163, 1.827" rotation_euler="-0.041, 1.604, -1.443"/>
+					<physics shape="bo_barn_fence_a" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_b" old_prefab_name="barn_fence_b">
+					<transform position="-4.627, -1.581, 1.646" rotation_euler="-0.041, 1.635, -1.443"/>
+					<physics shape="bo_barn_fence_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_b" old_prefab_name="barn_fence_b">
+					<transform position="-6.999, -0.938, 1.820" rotation_euler="0.000, 1.516, 2.072"/>
+					<physics shape="bo_barn_fence_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_plank_f_column" old_prefab_name="wooden_platform_plank_f_column">
+					<transform position="4.950, 1.449, 0.284" rotation_euler="-0.042, -0.010, -1.100" scale="1.000, 1.000, 0.663"/>
+					<physics shape="bo_wooden_platform_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_plank_f_column"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_c" old_prefab_name="barn_fence_c">
+					<transform position="-5.884, -3.725, 1.611" rotation_euler="0.000, 1.513, 2.169"/>
+					<physics shape="bo_barn_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_fence_b" old_prefab_name="wooden_platform_fence_b">
+					<transform position="2.738, 0.967, 2.497" rotation_euler="-0.282, 3.083, 0.163"/>
+					<physics shape="bo_wooden_platform_fence_b"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-7.741, -2.374, -2.463" rotation_euler="0.000, 0.437, 1.522" scale="1.000, 1.000, 1.499"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="castle_plank_ramp_b" old_prefab_name="castle_plank_ramp_b">
+					<transform position="-0.441, -0.407, 2.226" rotation_euler="1.071, -3.124, 0.068" scale="1.362, 1.362, 1.362"/>
+					<physics shape="bo_castle_plank_ramp_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="castle_plank_ramp_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-8.566, -1.959, -1.455" rotation_euler="0.000, -0.552, -1.304" scale="2.550, 2.550, 1.279"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_a" old_prefab_name="barn_fence_a">
+					<transform position="-8.952, -2.384, 0.304" rotation_euler="1.362, 2.656, -2.088" scale="0.757, 0.757, 0.757"/>
+					<physics shape="bo_barn_fence_a" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-8.227, -0.901, -0.934" rotation_euler="-0.285, -0.267, 0.433" scale="2.550, 2.550, 1.821"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_a" old_prefab_name="barn_fence_a">
+					<transform position="8.082, -2.049, 1.137" rotation_euler="-0.786, -0.109, 2.619"/>
+					<physics shape="bo_barn_fence_a" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="bd_rope_c" old_prefab_name="bd_rope_c">
+					<transform position="-7.073, -0.061, 1.894" rotation_euler="0.000, 0.000, -0.120"/>
+					<components>
+						<meta_mesh_component name="bd_rope_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="european_castle_wall_fence_b" old_prefab_name="european_castle_wall_fence_b">
+					<transform position="0.671, 0.287, 2.615" rotation_euler="-0.769, -0.056, -1.307"/>
+					<physics shape="bo_european_castle_wall_fence_b" override_material="stone"/>
+					<components>
+						<meta_mesh_component name="european_castle_wall_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-2.341, -0.265, -0.163" rotation_euler="0.000, 0.000, -1.907" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-2.253, -1.325, 1.365" rotation_euler="0.648, 3.072, 0.304" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_plank_f_column" old_prefab_name="wooden_platform_plank_f_column">
+					<transform position="9.213, -0.412, 0.406" rotation_euler="-0.124, 0.070, 3.049" scale="0.633, 0.633, 0.633"/>
+					<physics shape="bo_wooden_platform_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_plank_f_column"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_fence_a" old_prefab_name="wooden_platform_fence_a">
+					<transform position="7.652, -2.292, -0.756" rotation_euler="0.008, -0.417, 0.787"/>
+					<physics shape="bo_wooden_platform_fence_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_fence_b" old_prefab_name="wooden_platform_fence_b">
+					<transform position="8.640, -1.610, 0.006" rotation_euler="0.000, 0.000, 0.931"/>
+					<physics shape="bo_wooden_platform_fence_b"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-2.037, 0.331, -1.884" rotation_euler="0.000, -0.077, -2.225" scale="1.422, 1.422, 1.547"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-2.198, 0.299, -2.768" rotation_euler="0.000, 0.000, 0.303" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_b" old_prefab_name="barn_fence_b">
+					<transform position="-6.999, -0.938, 1.820" rotation_euler="0.000, 1.516, 2.072"/>
+					<physics shape="bo_barn_fence_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_fence_b" old_prefab_name="wooden_platform_fence_b">
+					<transform position="5.724, -1.279, -0.560" rotation_euler="0.383, 0.000, 2.745"/>
+					<physics shape="bo_wooden_platform_fence_b"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_a" old_prefab_name="barn_fence_a">
+					<transform position="7.879, -2.437, 0.939" rotation_euler="0.315, -0.108, 2.807"/>
+					<physics shape="bo_barn_fence_a" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="castle_plank_ramp_b" old_prefab_name="castle_plank_ramp_b">
+					<transform position="-4.357, -0.622, -0.343" rotation_euler="-0.021, -1.926, -1.281" scale="1.362, 1.362, 1.362"/>
+					<physics shape="bo_castle_plank_ramp_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="castle_plank_ramp_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-1.628, -2.152, 1.370" rotation_euler="0.000, 0.000, -2.225" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-5.953, 0.101, -0.711" rotation_euler="0.156, 0.586, 0.379" scale="2.550, 2.550, 1.821"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_c" old_prefab_name="barn_fence_c">
+					<transform position="-4.644, 1.425, 1.778" rotation_euler="-0.029, 1.635, -1.347"/>
+					<physics shape="bo_barn_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_a" old_prefab_name="barn_fence_a">
+					<transform position="-4.339, 0.163, 1.827" rotation_euler="-0.041, 1.604, -1.443"/>
+					<physics shape="bo_barn_fence_a" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_b" old_prefab_name="barn_fence_b">
+					<transform position="-4.627, -1.581, 1.646" rotation_euler="-0.041, 1.635, -1.443"/>
+					<physics shape="bo_barn_fence_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="bd_rope_c" old_prefab_name="bd_rope_c">
+					<transform position="5.288, 0.649, 3.531" rotation_euler="0.000, -0.086, -2.650"/>
+					<components>
+						<meta_mesh_component name="bd_rope_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_c" old_prefab_name="barn_fence_c">
+					<transform position="-5.884, -3.725, 1.611" rotation_euler="0.000, 1.513, 2.169"/>
+					<physics shape="bo_barn_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-2.514, -1.756, -0.056" rotation_euler="0.000, 0.000, -1.907" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-1.883, -0.729, 2.773" rotation_euler="-0.735, 3.067, -0.106" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-2.662, -0.017, -2.134" rotation_euler="0.000, 0.000, -1.167" scale="1.771, 1.771, 1.771"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="castle_plank_ramp_b" old_prefab_name="castle_plank_ramp_b">
+					<transform position="-4.801, -1.382, 1.739" rotation_euler="-0.021, -0.049, 1.706"/>
+					<physics shape="bo_castle_plank_ramp_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="castle_plank_ramp_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-5.975, 0.090, -2.274" rotation_euler="0.000, 0.000, 0.510" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-4.248, 0.629, -0.989" rotation_euler="0.000, -0.532, -2.919" scale="2.550, 2.550, 1.821"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-4.302, 0.618, -2.428" rotation_euler="0.000, 0.000, -2.919" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-2.568, 1.513, -2.917" rotation_euler="0.000, 0.224, -1.907" scale="1.000, 1.000, 1.499"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-2.998, 0.045, 0.409" rotation_euler="0.000, -0.552, 0.303" scale="2.550, 2.550, 1.279"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-3.367, 0.326, -3.043" rotation_euler="0.000, 0.000, 0.303" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="castle_plank_ramp_b" old_prefab_name="castle_plank_ramp_b">
+					<transform position="-1.662, -0.552, 0.214" rotation_euler="0.248, -1.461, -1.529" scale="1.362, 1.362, 1.362"/>
+					<physics shape="bo_castle_plank_ramp_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="castle_plank_ramp_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_heap_a" old_prefab_name="wooden_platform_heap_a">
+					<transform position="1.929, 1.400, 3.320" rotation_euler="0.000, 0.000, -2.629"/>
+					<physics shape="bo_wooden_platform_heap_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_heap_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="castle_plank_ramp_b" old_prefab_name="castle_plank_ramp_b">
+					<transform position="2.394, 0.154, 1.985" rotation_euler="1.272, 2.899, 0.453" scale="1.362, 1.362, 1.362"/>
+					<physics shape="bo_castle_plank_ramp_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="castle_plank_ramp_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-2.189, 0.188, 1.210" rotation_euler="0.000, -0.552, 0.303" scale="2.550, 2.550, 1.279"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="bd_barrel_f" old_prefab_name="bd_barrel_f">
+					<transform position="-0.366, 0.622, 3.390" rotation_euler="-0.275, 0.505, 2.663"/>
+					<physics shape="bo_bd_barrel_f"/>
+					<components>
+						<meta_mesh_component name="bd_barrel_f"/>
+					</components>
+				</game_entity>
+				<game_entity name="bd_barrel_f" old_prefab_name="bd_barrel_f">
+					<transform position="-1.392, 0.795, 3.109" rotation_euler="0.000, 0.000, 1.155"/>
+					<physics shape="bo_bd_barrel_f"/>
+					<components>
+						<meta_mesh_component name="bd_barrel_f"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_stairs_a" old_prefab_name="wooden_platform_stairs_a">
+					<transform position="-3.459, -1.101, 1.136" rotation_euler="0.000, 0.000, -1.463"/>
+					<physics shape="bo_wooden_platform_stairs_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_stairs_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="8.542, -1.607, 1.370" rotation_euler="0.000, 0.000, -2.557" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="7.503, -2.690, 1.478" rotation_euler="0.000, 0.000, -2.557" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_heap_a" old_prefab_name="wooden_platform_heap_a">
+					<transform position="8.712, -2.038, 3.304" rotation_euler="0.000, 0.000, -2.013"/>
+					<physics shape="bo_wooden_platform_heap_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_heap_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_b" old_prefab_name="wooden_platform_b">
+					<transform position="5.940, -0.807, 1.302" rotation_euler="-1.159, 3.035, 2.695"/>
+					<physics shape="bo_wooden_platform_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_fence_b" old_prefab_name="wooden_platform_fence_b">
+					<transform position="1.136, -0.462, -1.413" rotation_euler="-0.023, 0.000, 3.038"/>
+					<physics shape="bo_wooden_platform_fence_b"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="7.082, -1.058, -3.629" rotation_euler="0.192, 0.019, 2.754" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="8.542, -1.607, -0.906" rotation_euler="0.000, 0.000, -2.557" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="5.721, 0.276, 0.725" rotation_euler="0.156, 0.586, -0.271" scale="2.550, 2.550, 1.821"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="7.290, -0.342, 0.545" rotation_euler="0.000, -0.532, 2.715" scale="2.550, 2.550, 1.821"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="8.388, -0.836, -2.730" rotation_euler="-0.025, -0.075, -2.594" scale="1.000, 1.000, 1.499"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_b" old_prefab_name="barn_fence_b">
+					<transform position="4.528, 0.542, 3.342" rotation_euler="0.000, 1.516, 1.015"/>
+					<physics shape="bo_barn_fence_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="7.503, -2.690, -0.798" rotation_euler="0.000, 0.000, -2.557" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="7.970, -2.505, 2.899" rotation_euler="0.648, 3.072, -0.346" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="8.436, -1.216, -2.582" rotation_euler="0.000, 0.000, -1.817" scale="1.771, 1.771, 1.771"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="5.398, -0.251, -4.361" rotation_euler="-0.070, 0.036, -0.099" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="castle_plank_ramp_b" old_prefab_name="castle_plank_ramp_b">
+					<transform position="5.298, 0.287, 1.995" rotation_euler="0.957, -0.143, -0.039" scale="1.362, 1.362, 1.362"/>
+					<physics shape="bo_castle_plank_ramp_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="castle_plank_ramp_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_c" old_prefab_name="barn_fence_c">
+					<transform position="7.731, 1.132, 3.299" rotation_euler="-0.029, 1.635, -1.996"/>
+					<physics shape="bo_barn_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_b" old_prefab_name="barn_fence_b">
+					<transform position="0.079, -0.672, 3.342" rotation_euler="0.000, 1.516, 1.566"/>
+					<physics shape="bo_barn_fence_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_a" old_prefab_name="barn_fence_a">
+					<transform position="-0.429, -2.375, 3.341" rotation_euler="0.000, 1.485, 1.566"/>
+					<physics shape="bo_barn_fence_a" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_c" old_prefab_name="barn_fence_c">
+					<transform position="-0.295, -3.650, 3.132" rotation_euler="0.000, 1.513, 1.663"/>
+					<physics shape="bo_barn_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_b" old_prefab_name="barn_fence_b">
+					<transform position="5.926, -1.272, 3.167" rotation_euler="-0.041, 1.635, -2.093"/>
+					<physics shape="bo_barn_fence_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_c" old_prefab_name="barn_fence_c">
+					<transform position="2.497, 1.507, 3.299" rotation_euler="-0.029, 1.635, -1.445"/>
+					<physics shape="bo_barn_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_c" old_prefab_name="barn_fence_c">
+					<transform position="2.651, -1.799, 3.144" rotation_euler="0.000, 1.513, 1.112"/>
+					<physics shape="bo_barn_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="bd_wood_c" old_prefab_name="bd_wood_c">
+					<transform position="4.446, 0.832, 3.606" rotation_euler="-0.097, 3.120, -1.144"/>
+					<physics override_material="wood"/>
+					<components>
+						<meta_mesh_component name="bd_wood_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_c" old_prefab_name="barn_fence_c">
+					<transform position="2.651, -1.799, 3.144" rotation_euler="0.000, 1.513, 1.112"/>
+					<physics shape="bo_barn_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_b" old_prefab_name="barn_fence_b">
+					<transform position="2.218, -1.485, 3.167" rotation_euler="-0.041, 1.635, -1.542"/>
+					<physics shape="bo_barn_fence_b" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_a" old_prefab_name="barn_fence_a">
+					<transform position="3.204, -0.642, 3.341" rotation_euler="0.000, 1.485, 1.015"/>
+					<physics shape="bo_barn_fence_a" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_a" old_prefab_name="barn_fence_a">
+					<transform position="2.677, 0.222, 3.348" rotation_euler="-0.041, 1.604, -1.542"/>
+					<physics shape="bo_barn_fence_a" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="3.930, 0.410, -2.193" rotation_euler="-0.069, 0.180, 0.920" scale="1.000, 1.000, 1.499"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="4.258, 0.286, -2.003" rotation_euler="-0.383, -0.277, -0.245" scale="2.550, 2.550, 1.821"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="1.694, -0.253, -1.295" rotation_euler="0.328, 0.167, -2.961" scale="1.422, 1.422, 2.724"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="2.318, 0.849, -3.960" rotation_euler="0.003, -0.164, -1.918" scale="2.550, 2.550, 2.550"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="2.669, 1.913, 1.766" rotation_euler="-0.169, -0.561, -2.058" scale="2.550, 2.550, 1.279"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="bd_wood_c" old_prefab_name="bd_wood_c">
+					<transform position="3.873, 1.236, 3.478" rotation_euler="0.176, 0.012, -1.626"/>
+					<physics override_material="wood"/>
+					<components>
+						<meta_mesh_component name="bd_wood_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="bd_wood_c" old_prefab_name="bd_wood_c">
+					<transform position="5.103, 1.115, 3.738" rotation_euler="-0.097, 3.120, -0.348"/>
+					<physics override_material="wood"/>
+					<components>
+						<meta_mesh_component name="bd_wood_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="bd_wood_c" old_prefab_name="bd_wood_c">
+					<transform position="5.499, 0.805, 3.313" rotation_euler="0.162, 0.010, -1.340"/>
+					<physics override_material="wood"/>
+					<components>
+						<meta_mesh_component name="bd_wood_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="bd_wood_c" old_prefab_name="bd_wood_c">
+					<transform position="4.446, 0.832, 3.606" rotation_euler="-0.097, 3.120, -1.144"/>
+					<physics override_material="wood"/>
+					<components>
+						<meta_mesh_component name="bd_wood_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="8.441, -1.196, 1.816" rotation_euler="0.000, -0.765, -1.817" scale="1.771, 1.771, 1.081"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_a" old_prefab_name="barn_fence_a">
+					<transform position="3.204, -0.642, 3.341" rotation_euler="0.000, 1.485, 1.015"/>
+					<physics shape="bo_barn_fence_a" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="barn_fence_a" old_prefab_name="barn_fence_a">
+					<transform position="7.210, -0.058, 3.348" rotation_euler="-0.041, 1.604, -2.093"/>
+					<physics shape="bo_barn_fence_a" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="barn_fence_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-1.877, -3.187, 2.899" rotation_euler="0.648, 3.072, -0.014" scale="1.000, 1.000, 1.064"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_d" old_prefab_name="fence_d">
+					<transform position="-1.814, -0.429, 0.459" rotation_euler="0.000, 0.000, -2.225" scale="1.000, 1.000, 1.499"/>
+					<physics shape="bo_fence_c" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="fence_h" old_prefab_name="fence_h">
+					<transform position="-2.670, 0.002, 0.283" rotation_euler="0.000, -0.765, -1.167" scale="1.771, 1.771, 1.081"/>
+					<physics shape="bo_fence_h" override_material="wood"/>
+					<components>
+						<meta_mesh_component name="fence_h"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_stairs_a" old_prefab_name="wooden_platform_stairs_a">
+					<transform position="-5.726, 2.204, -0.554" rotation_euler="0.000, 0.000, -2.833"/>
+					<physics shape="bo_wooden_platform_stairs_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_stairs_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_ladder_a" old_prefab_name="wooden_platform_ladder_a">
+					<transform position="7.017, 0.767, 3.417" rotation_euler="-1.542, -1.401, 2.557"/>
+					<physics shape="bo_wooden_platform_ladder_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_ladder_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_plank_d" old_prefab_name="wooden_platform_plank_d">
+					<transform position="8.524, -0.434, 3.535" rotation_euler="0.000, 0.000, -3.094"/>
+					<physics shape="bo_wooden_platform_plank_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_plank_d"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_plank_c" old_prefab_name="wooden_platform_plank_c">
+					<transform position="-6.784, -2.918, 1.823" rotation_euler="0.000, 0.000, -2.013"/>
+					<physics shape="bo_wooden_platform_plank_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_plank_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_b" old_prefab_name="wooden_platform_b">
+					<transform position="-3.356, 0.480, 1.579" rotation_euler="0.000, 0.000, 2.687" scale="0.505, 0.505, 0.505"/>
+					<physics shape="bo_wooden_platform_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_b"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_c" old_prefab_name="wooden_platform_c">
+					<transform position="-6.043, 0.558, 1.433" rotation_euler="0.000, 0.000, -1.598" scale="0.600, 0.600, 0.600"/>
+					<physics shape="bo_wooden_platform_c"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_c"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_heap_a" old_prefab_name="wooden_platform_heap_a">
+					<transform position="-0.886, -3.262, 3.138" rotation_euler="0.000, 0.000, 3.020"/>
+					<physics shape="bo_wooden_platform_heap_a"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_heap_a"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_plank_f_column" old_prefab_name="wooden_platform_plank_f_column">
+					<transform position="4.934, 1.805, -4.710" rotation_euler="0.027, 0.063, -1.137" scale="1.000, 1.000, 1.017"/>
+					<physics shape="bo_wooden_platform_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_plank_f_column"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_plank_f_column" old_prefab_name="wooden_platform_plank_f_column">
+					<transform position="9.517, 0.484, -2.632" rotation_euler="-0.285, 0.073, 3.061" scale="0.633, 0.633, 0.633"/>
+					<physics shape="bo_wooden_platform_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_plank_f_column"/>
+					</components>
+				</game_entity>
+				<game_entity name="wooden_platform_plank_f_column" old_prefab_name="wooden_platform_plank_f_column">
+					<transform position="-4.305, 1.553, -3.411" rotation_euler="0.000, 0.000, -2.940"/>
+					<physics shape="bo_wooden_platform_plank_f_column"/>
+					<components>
+						<meta_mesh_component name="wooden_platform_plank_f_column"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="262.047, 248.266, 0.351" rotation_euler="0.000, -0.007, 1.163"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="276.014, 273.520, 0.351" rotation_euler="-0.004, -0.006, 2.293"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="269.896, 250.570, 0.340" rotation_euler="0.015, 0.000, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="280.854, 256.901, 0.340" rotation_euler="-0.007, -0.002, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="275.759, 250.570, 0.340" rotation_euler="-0.007, -0.002, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="283.600, 258.307, 0.158" rotation_euler="-0.007, -0.002, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="253.583, 250.570, 0.340" rotation_euler="0.016, -0.003, 2.741"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="245.469, 273.238, 0.158" rotation_euler="0.016, -0.003, 2.741"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="239.180, 279.091, 0.426" rotation_euler="0.016, -0.003, 2.741"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="242.722, 281.512, 0.340" rotation_euler="0.016, -0.003, 2.741"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="264.541, 256.901, 0.340" rotation_euler="-0.006, -0.004, 2.740"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="279.105, 277.665, 0.351" rotation_euler="-0.006, -0.005, 2.608"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="233.551, 283.323, 0.340" rotation_euler="0.022, 0.002, 3.108"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="230.009, 280.903, 0.426" rotation_euler="0.022, 0.002, 3.108"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="228.456, 276.993, 0.340" rotation_euler="0.022, 0.002, 3.108"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="233.551, 273.643, 0.340" rotation_euler="0.022, 0.002, 3.108"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="243.247, 59.245, 0.340" rotation_euler="0.000, 0.000, 0.555"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="254.720, 75.864, 0.351" rotation_euler="0.000, 0.000, 0.108"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="248.602, 62.594, 0.340" rotation_euler="0.022, 0.002, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="253.696, 68.925, 0.340" rotation_euler="0.022, 0.002, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="250.154, 66.504, 0.426" rotation_euler="0.022, 0.002, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="154.277, 132.418, 0.396" rotation_euler="0.000, 0.000, -1.274"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="158.379, 142.642, 0.413" rotation_euler="0.000, 0.000, -1.274"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="150.277, 145.499, -0.034" rotation_euler="0.000, 0.000, -1.274"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="156.422, 140.256, 0.396" rotation_euler="0.000, 0.000, -1.274"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="308.719, 94.193, 0.340" rotation_euler="-0.004, -0.006, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="315.626, 101.453, 0.426" rotation_euler="0.017, -0.003, 1.851"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="303.879, 110.813, 0.351" rotation_euler="0.002, -0.007, 0.778"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="302.855, 103.873, 0.340" rotation_euler="0.018, -0.005, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="305.602, 105.280, 0.158" rotation_euler="0.018, -0.005, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="305.602, 95.600, 0.158" rotation_euler="0.018, -0.005, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="314.073, 87.863, 0.340" rotation_euler="0.017, -0.003, 1.851"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="297.761, 97.543, 0.340" rotation_euler="0.018, -0.005, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="321.914, 95.600, 0.158" rotation_euler="0.017, -0.003, 1.851"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="302.855, 94.193, 0.340" rotation_euler="0.018, -0.005, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="299.313, 101.453, 0.426" rotation_euler="0.018, -0.005, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="297.761, 87.863, 0.340" rotation_euler="0.018, -0.005, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="327.778, 95.600, 0.158" rotation_euler="-0.006, -0.005, 1.850"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="311.465, 95.600, 0.158" rotation_euler="-0.004, -0.006, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="150.448, 184.556, 0.340" rotation_euler="0.030, 0.002, -1.977"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="153.194, 168.338, 0.158" rotation_euler="0.022, 0.002, -1.640"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="193.183, 233.478, 0.340" rotation_euler="0.024, -0.009, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="199.301, 256.428, 0.351" rotation_euler="0.009, -0.007, -2.678"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="204.141, 239.808, 0.340" rotation_euler="0.002, -0.011, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="199.046, 233.478, 0.340" rotation_euler="0.002, -0.011, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="206.887, 241.215, 0.158" rotation_euler="0.002, -0.011, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="168.756, 256.146, 0.158" rotation_euler="0.027, -0.008, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="162.467, 261.999, 0.426" rotation_euler="0.027, -0.008, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="166.009, 254.740, 0.340" rotation_euler="0.027, -0.008, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="160.915, 258.089, 0.340" rotation_euler="0.027, -0.008, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="184.711, 250.895, 0.158" rotation_euler="0.027, -0.008, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="166.009, 264.420, 0.340" rotation_euler="0.027, -0.008, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="187.828, 239.808, 0.340" rotation_euler="0.005, -0.010, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="202.393, 260.573, 0.351" rotation_euler="0.006, -0.009, -2.363"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="257.481, 248.586, 0.426" rotation_euler="0.017, -0.003, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="277.312, 264.160, 0.426" rotation_euler="-0.007, -0.002, 3.053"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="277.737, 258.307, 0.158" rotation_euler="0.015, 0.000, 3.053"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="237.385, 158.252, 0.475" rotation_euler="0.112, -0.226, -1.469"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_ramp_a">
+			<transform position="239.022, 157.258, 0.574" rotation_euler="-0.807, -0.028, -3.051"/>
+		</game_entity>
+		<game_entity prefab="arrow_barrel">
+			<transform position="238.043, 158.532, 1.167" rotation_euler="0.036, 0.000, 0.720"/>
+		</game_entity>
+		<game_entity prefab="arrow_barrel">
+			<transform position="211.812, 146.668, 1.605" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_a">
+			<transform position="240.138, 148.500, -0.115" rotation_euler="-0.124, 0.101, 0.819"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="239.490, 147.478, 0.231" rotation_euler="0.251, 0.000, -0.757"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="240.089, 146.404, 0.057" rotation_euler="0.053, 0.006, 0.945"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="240.110, 146.812, 0.460" rotation_euler="-0.073, -0.074, 1.987"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_c">
+			<transform position="242.900, 165.472, 0.022" rotation_euler="0.000, 0.000, 0.775"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="262.710, 117.353, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="213.886, 146.829, 1.336" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="251.512, 149.448, 1.911" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="222.546, 144.656, 1.391" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="186.471, 193.703, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="263.732, 196.635, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="241.913, 176.698, -9.173" rotation_euler="0.000, 0.000, -0.495"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="252.979, 163.786, -9.600" rotation_euler="0.000, 0.000, -1.302"/>
+		</game_entity>
+		<game_entity prefab="arrow_barrel">
+			<transform position="233.494, 165.754, 0.000" rotation_euler="0.000, 0.000, -0.068"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="198.639, 187.462, -0.006" rotation_euler="0.000, 0.000, -0.506"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="113.959, 67.278, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_a">
+			<transform position="234.299, 147.058, 0.840" rotation_euler="-1.516, -1.834, 1.411"/>
+		</game_entity>
+		<game_entity prefab="ballista_b_spawnerFireMP">
+			<transform position="214.410, 144.601, 1.695" rotation_euler="0.000, 0.000, -0.825"/>
+		</game_entity>
+		<game_entity prefab="ballista_b_spawnerFireMP">
+			<transform position="217.259, 143.375, 1.299" rotation_euler="0.000, 0.000, 0.050"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="238.495, 158.416, 0.000" rotation_euler="0.000, 0.000, 1.625"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="238.463, 157.871, 0.316" rotation_euler="0.332, 0.000, 1.625"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="238.117, 157.832, 0.120" rotation_euler="-1.039, 0.016, 1.607"/>
+		</game_entity>
+		<game_entity prefab="skirmish_start_spawn">
+			<transform position="154.675, 100.782, 0.396" rotation_euler="0.000, 0.000, 0.347"/>
+			<children>
+				<game_entity _index_="0">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="1">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="2">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="-8.893, 7.829, 0.000"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="15.197, 39.112, 0.000"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="5">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+				</game_entity>
+				<game_entity _index_="6">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="-4.009, 5.257, 0.000"/>
+				</game_entity>
+				<game_entity _index_="7">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="15.658, 26.671, 0.000"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<tags>
+						<tag name="attacker"/>
+						<tag name="spawnpoint"/>
+					</tags>
+					<transform position="15.501, 33.099, 0.000"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="216.351, 142.017, 1.573" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="216.124, 142.024, 1.993" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="sturgia_arena_stakes_a">
+			<transform position="240.658, 133.651, -0.568" rotation_euler="0.000, 0.000, 0.505"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_e">
+			<transform position="209.936, 149.879, 0.000" rotation_euler="0.000, 0.000, 2.953"/>
+		</game_entity>
+		<game_entity prefab="bd_wood_heap_d">
+			<transform position="209.874, 152.504, 0.000" rotation_euler="0.000, 0.000, -3.062"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="216.484, 146.818, -4.098" rotation_euler="0.000, 0.000, -0.819"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="215.132, 148.546, -4.167" rotation_euler="0.000, 0.000, -0.819"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="220.542, 146.346, -3.856" rotation_euler="0.000, 0.000, -0.467"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="222.668, 144.923, -3.893" rotation_euler="0.000, 0.000, -0.261"/>
+		</game_entity>
+		<game_entity prefab="wooden_platform_plank_f_column">
+			<transform position="218.473, 146.854, -4.134" rotation_euler="0.000, 0.000, -0.478"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="220.697, 144.380, 0.632" rotation_euler="0.000, 0.000, -0.369"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="220.700, 144.503, 0.000" rotation_euler="0.000, 0.000, -0.369"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="227.887, 139.463, -9.046" rotation_euler="0.000, 0.000, -0.123"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="211.723, 169.478, -9.210" rotation_euler="0.001, -0.015, 1.265"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="209.441, 160.805, -9.344" rotation_euler="0.000, 0.000, 1.362"/>
+		</game_entity>
+		<game_entity prefab="sturgia_arena_stakes_a">
+			<transform position="241.985, 136.922, -0.268" rotation_euler="0.000, 0.000, 1.142"/>
+		</game_entity>
+		<game_entity prefab="sturgia_arena_stakes_a">
+			<transform position="234.513, 131.449, -0.363" rotation_euler="0.000, 0.000, -0.057"/>
+		</game_entity>
+		<game_entity prefab="sturgia_arena_stakes_a">
+			<transform position="221.806, 137.104, 0.722" rotation_euler="0.000, 0.000, 0.033"/>
+		</game_entity>
+		<game_entity prefab="crate_b">
+			<transform position="234.657, 170.953, 0.702" rotation_euler="0.000, 0.000, -0.862"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_B">
+			<transform position="259.368, 128.356, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="191.569, 52.914, 0.340" rotation_euler="0.022, 0.002, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="202.527, 59.245, 0.340" rotation_euler="0.000, 0.000, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="303.624, 87.863, 0.340" rotation_euler="-0.004, -0.006, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="317.591, 113.116, 0.340" rotation_euler="-0.006, -0.004, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="319.937, 87.863, 0.340" rotation_euler="-0.006, -0.005, 1.850"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="305.177, 101.453, 0.426" rotation_euler="-0.004, -0.006, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="325.031, 94.193, 0.340" rotation_euler="-0.006, -0.005, 1.850"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="319.144, 126.706, 0.426" rotation_euler="-0.006, -0.004, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="321.914, 105.280, 0.158" rotation_euler="0.017, -0.003, 1.851"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_b">
+			<transform position="243.322, 169.644, 0.000" rotation_euler="0.000, 0.000, 0.914"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="118.425, 251.204, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="flag_pole_big_sergeant_C">
+			<transform position="227.078, 162.896, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="spawn_visual">
+			<transform position="226.514, 145.740, 0.000" rotation_euler="0.000, 0.000, -1.520"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-16.458, 4.687, 0.000"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<tags>
+						<tag name="attacker_archer"/>
+						<tag name="sp_visual_5"/>
+					</tags>
+					<transform position="-14.957, 8.137, 0.000"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<transform position="-10.626, 6.329, 0.000"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<transform position="-14.669, 4.047, 0.000"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<transform position="-15.313, 2.460, 0.000"/>
+				</game_entity>
+				<game_entity _index_="5">
+					<transform position="-16.542, 7.506, 0.000"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="skirmish_start_spawn">
+			<transform position="238.847, 149.572, 0.000" rotation_euler="0.000, 3.102, 2.068"/>
+			<children>
+				<game_entity _index_="8">
+					<transform rotation_euler="0.000, 0.000, -1.439"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="339.948, 177.924, 0.340" rotation_euler="0.017, -0.003, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="333.135, 233.860, 0.340" rotation_euler="0.015, 0.000, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="335.881, 244.946, 0.158" rotation_euler="0.015, 0.000, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="342.694, 189.011, 0.158" rotation_euler="0.017, -0.003, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="328.040, 237.209, 0.340" rotation_euler="0.015, 0.000, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="329.593, 241.119, 0.426" rotation_euler="0.015, 0.000, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="334.854, 181.273, 0.340" rotation_euler="0.017, -0.003, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="336.406, 185.183, 0.426" rotation_euler="0.017, -0.003, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="339.948, 187.604, 0.340" rotation_euler="0.017, -0.003, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="325.432, 235.266, 0.158" rotation_euler="-0.006, -0.004, 2.025"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="333.135, 243.539, 0.340" rotation_euler="0.015, 0.000, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="332.245, 179.331, 0.158" rotation_euler="-0.004, -0.006, 1.610"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="253.541, 194.630, -0.006" rotation_euler="0.000, 0.000, -0.506"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="crate_b">
+			<transform position="235.023, 170.577, 0.000" rotation_euler="0.000, 0.000, -0.862"/>
+		</game_entity>
+		<game_entity prefab="crate_b">
+			<transform position="234.216, 171.415, 0.000" rotation_euler="0.000, 0.000, -0.627"/>
+		</game_entity>
+		<game_entity prefab="crate_c">
+			<transform position="233.151, 172.443, 0.000" rotation_euler="0.000, 0.000, 2.725"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="254.996, 130.614, 0.000" rotation_euler="0.000, 0.000, 1.978"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="190.189, 186.622, 0.000" rotation_euler="0.000, 0.000, 0.981"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="224.631, 179.730, -9.172" rotation_euler="0.000, 0.000, 0.227"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="265.971, 129.820, 0.000" rotation_euler="0.000, 0.000, -1.145"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="240.130, 70.331, 0.158" rotation_euler="0.022, 0.002, 0.555"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="256.442, 70.331, 0.158" rotation_euler="0.022, 0.002, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="232.289, 62.594, 0.340" rotation_euler="0.022, 0.002, 0.555"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="256.442, 60.651, 0.158" rotation_euler="0.022, 0.002, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="237.384, 59.245, 0.340" rotation_euler="0.022, 0.002, 0.555"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="233.842, 66.504, 0.426" rotation_euler="0.022, 0.002, 0.555"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="256.018, 66.504, 0.426" rotation_euler="0.000, 0.000, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="240.130, 60.651, 0.158" rotation_euler="0.022, 0.002, 0.555"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="232.289, 52.914, 0.340" rotation_euler="0.022, 0.002, 0.555"/>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="no_shadow" value="true"/>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<transform position="60.720, 0.000, 5.000" rotation_euler="0.000, 0.000, 1.327"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="245.993, 60.651, 0.158" rotation_euler="0.000, 0.000, 0.555"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="262.306, 60.651, 0.158" rotation_euler="0.000, 0.000, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="254.465, 52.914, 0.340" rotation_euler="0.000, 0.000, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="238.153, 52.914, 0.340" rotation_euler="0.000, 0.000, 0.555"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="259.560, 59.245, 0.340" rotation_euler="0.000, 0.000, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="239.705, 66.504, 0.426" rotation_euler="0.000, 0.000, 0.555"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="248.602, 52.914, 0.340" rotation_euler="0.022, 0.002, 0.868"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="288.721, 79.699, 0.426" rotation_euler="0.022, 0.002, 1.283"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="287.169, 75.789, 0.340" rotation_euler="0.022, 0.002, 1.283"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_b">
+			<transform position="241.450, 146.764, -0.187" rotation_euler="-0.090, 0.000, -0.470"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="294.017, 257.862, 0.426" rotation_euler="0.000, 0.000, 2.393"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="309.501, 173.110, 0.426" rotation_euler="0.022, 0.002, 1.355"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="294.441, 252.009, 0.158" rotation_euler="0.022, 0.002, 2.393"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="314.067, 172.790, 0.351" rotation_euler="0.000, 0.000, 0.595"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="297.559, 250.602, 0.340" rotation_euler="0.000, 0.000, 2.393"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="308.420, 229.341, 0.340" rotation_euler="0.000, 0.000, 2.393"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="258.736, 124.204, 0.002" rotation_euler="0.000, 0.000, -2.677"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning">
+			<transform position="230.828, 131.051, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="dragon_banner_animated">
+			<transform position="232.829, 164.860, -0.400" rotation_euler="0.000, 0.000, 0.000" scale="0.020, 0.030, 0.020"/>
+			<skeleton>
+				<components>
+					<meta_mesh_component>
+						<mesh name="dragon_banner_animated.0" factor="4278195712"/>
+						<mesh name="dragon_banner_animated.1" factor="4278195712"/>
+					</meta_mesh_component>
+				</components>
+				<bones>
+					<bone frame="0.995520, 0.080422, -0.049718, 0.000000, -0.079668, 0.996677, 0.016968, 0.000000, 0.050917, -0.012931, 0.998619, 0.000000, 13.835538, 0.000000, -0.000000, 1.000000" _index_="2"/>
+					<bone frame="0.936213, -0.342129, -0.080327, 0.000000, 0.344663, 0.938519, 0.019715, 0.000000, 0.068643, -0.046143, 0.996574, 0.000000, 29.278893, 0.000000, 0.000000, 1.000000" _index_="3"/>
+					<bone frame="0.984658, -0.165651, -0.054848, 0.000000, 0.167103, 0.985671, 0.023010, 0.000000, 0.050250, -0.031822, 0.998230, 0.000000, 22.643740, 0.000000, -0.000000, 1.000000" _index_="4"/>
+					<bone frame="0.984272, 0.174721, 0.026094, 0.000000, -0.175342, 0.984220, 0.023805, 0.000000, -0.021523, -0.028006, 0.999376, 0.000000, 27.122881, 0.000000, 0.000000, 1.000000" _index_="5"/>
+					<bone frame="0.964760, 0.242963, 0.101031, 0.000000, -0.246991, 0.968575, 0.029284, 0.000000, -0.090741, -0.053205, 0.994452, 0.000000, 26.047628, 0.000000, 0.000000, 1.000000" _index_="6"/>
+					<bone frame="0.981569, 0.161311, 0.102471, 0.000000, -0.165993, 0.985360, 0.038881, 0.000000, -0.094699, -0.055174, 0.993976, 0.000000, 26.230309, -0.000000, 0.000000, 1.000000" _index_="7"/>
+					<bone frame="0.994552, 0.097408, 0.037128, 0.000000, -0.098397, 0.994813, 0.025799, 0.000000, -0.034422, -0.029311, 0.998977, 0.000000, 21.561342, 0.000000, -0.000000, 1.000000" _index_="8"/>
+					<bone frame="0.046286, -0.053240, 0.997508, 0.000000, 0.022879, 0.998373, 0.052224, 0.000000, -0.998666, 0.020405, 0.047429, 0.000000, 19.938822, 0.000000, 0.000000, 1.000000" _index_="9"/>
+					<bone frame="-0.015258, -0.999878, 0.003209, 0.000000, -0.004390, 0.003277, 0.999985, 0.000000, -0.999874, 0.015244, -0.004439, 0.000000, 1.082850, 235.938599, 5.231776, 1.000000" _index_="10"/>
+					<bone frame="0.988758, 0.148559, 0.016974, 0.000000, -0.148861, 0.988691, 0.018201, 0.000000, -0.014078, -0.020523, 0.999690, 0.000000, 14.692584, 0.000000, -0.000000, 1.000000" _index_="15"/>
+					<bone frame="0.000000, 0.999962, -0.008671, 0.000000, 0.000000, 0.008671, 0.999962, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.461478, -0.022714, 1.000000" _index_="19"/>
+				</bones>
+			</skeleton>
+		</game_entity>
+		<game_entity prefab="ballista_a_spawnerMP">
+			<transform position="250.078, 147.939, 1.943" rotation_euler="0.000, 0.000, 1.701"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="226.881, 167.941, 0.000" rotation_euler="0.000, 0.000, -1.075"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="226.857, 167.913, 0.702" rotation_euler="0.000, 0.000, -1.075"/>
+		</game_entity>
+		<game_entity prefab="european_castle_ladder">
+			<transform position="245.574, 143.300, -13.214" rotation_euler="0.023, 0.050, 0.890"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="246.819, 154.773, 0.627" rotation_euler="0.000, 0.000, 0.423"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="245.094, 155.026, 1.262" rotation_euler="0.000, 0.000, -0.264"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="246.293, 154.763, 0.000" rotation_euler="0.000, 0.000, -0.354"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="247.674, 155.066, 0.000" rotation_euler="0.000, 0.000, 0.423"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="231.709, 114.169, -0.195" rotation_euler="0.000, 0.000, -2.795"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="261.834, 135.107, -0.003" rotation_euler="0.000, 0.000, -0.151"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_anvil">
+			<transform position="241.151, 171.726, 0.000" rotation_euler="0.000, 0.000, 0.254"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_heap_a">
+			<transform position="236.518, 170.460, 0.000" rotation_euler="0.000, 0.000, 1.728"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_b">
+			<transform position="219.495, 155.583, 0.000" rotation_euler="0.000, 0.000, 1.298"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_barrel_b">
+			<transform position="222.900, 152.476, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_b">
+			<transform position="223.620, 145.136, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="245.188, 155.152, 0.000" rotation_euler="0.000, 0.000, -0.354"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="245.143, 155.091, 0.629" rotation_euler="0.000, 0.000, -0.354"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_a">
+			<transform position="240.502, 144.361, 0.896" rotation_euler="-1.483, -2.781, 2.556"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_a">
+			<transform position="240.609, 148.465, 0.964" rotation_euler="-1.554, -2.744, -0.480"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_b">
+			<transform position="222.972, 145.799, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="191.569, 80.219, 0.340" rotation_euler="0.030, 0.002, -1.110"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="196.663, 68.925, 0.340" rotation_euler="0.022, 0.002, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="193.121, 66.504, 0.426" rotation_euler="0.022, 0.002, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="191.569, 62.594, 0.340" rotation_euler="0.022, 0.002, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="197.687, 75.864, 0.351" rotation_euler="0.000, 0.000, -1.532"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="198.985, 66.504, 0.426" rotation_euler="0.000, 0.000, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="199.409, 60.651, 0.158" rotation_euler="0.022, 0.002, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="317.591, 227.529, 0.340" rotation_euler="-0.006, -0.004, 2.025"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="324.405, 171.594, 0.340" rotation_euler="-0.004, -0.006, 1.610"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="303.188, 256.050, 0.426" rotation_euler="-0.006, -0.004, 2.025"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="325.957, 185.183, 0.426" rotation_euler="-0.004, -0.006, 1.610"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="324.659, 194.544, 0.351" rotation_euler="0.002, -0.007, 0.850"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="337.250, 254.624, 0.351" rotation_euler="-0.006, -0.005, 1.893"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="329.499, 177.924, 0.340" rotation_euler="-0.004, -0.006, 1.610"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="323.636, 187.604, 0.340" rotation_euler="0.018, -0.005, 1.611"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="291.695, 260.282, 0.340" rotation_euler="0.022, 0.002, 2.393"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="288.153, 257.862, 0.426" rotation_euler="0.022, 0.002, 2.393"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="286.601, 253.952, 0.340" rotation_euler="0.022, 0.002, 2.393"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="315.790, 167.257, 0.158" rotation_euler="0.022, 0.002, 1.355"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="291.695, 250.602, 0.340" rotation_euler="0.022, 0.002, 2.393"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="325.432, 120.853, 0.158" rotation_euler="-0.006, -0.004, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="320.191, 110.813, 0.351" rotation_euler="0.000, -0.007, 1.090"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="319.168, 94.193, 0.340" rotation_euler="0.017, -0.003, 1.851"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="321.489, 101.453, 0.426" rotation_euler="-0.006, -0.005, 1.850"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="315.626, 111.132, 0.426" rotation_euler="0.017, -0.003, 1.851"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="337.250, 140.211, 0.351" rotation_euler="-0.006, -0.005, 1.820"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="311.728, 122.796, 0.340" rotation_euler="0.016, -0.003, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="328.040, 227.529, 0.340" rotation_euler="0.015, 0.000, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="318.541, 171.594, 0.340" rotation_euler="0.018, -0.005, 1.611"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="334.158, 250.479, 0.351" rotation_euler="-0.004, -0.006, 1.578"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="317.158, 176.935, 0.351" rotation_euler="0.000, 0.000, 0.910"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="322.686, 233.860, 0.340" rotation_euler="-0.006, -0.004, 2.025"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="338.998, 233.860, 0.340" rotation_euler="-0.007, -0.002, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="311.728, 227.529, 0.340" rotation_euler="0.016, -0.003, 2.026"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="341.745, 235.266, 0.158" rotation_euler="-0.007, -0.002, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="297.325, 256.050, 0.426" rotation_euler="0.016, -0.003, 2.026"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="333.904, 227.529, 0.340" rotation_euler="-0.007, -0.002, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="319.569, 244.946, 0.158" rotation_euler="0.016, -0.003, 2.026"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="303.613, 250.198, 0.158" rotation_euler="0.016, -0.003, 2.026"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="217.170, 176.025, -9.445" rotation_euler="0.004, -0.007, -2.516"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_c">
+			<transform position="230.395, 172.276, 0.000" rotation_euler="0.000, 0.000, 0.016"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="201.546, 291.641, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_heap_b">
+			<transform position="240.130, 169.093, 0.000" rotation_euler="0.000, 0.000, 0.914"/>
+		</game_entity>
+		<game_entity prefab="bd_wheelbarrow_a">
+			<transform position="239.657, 172.780, 0.047" rotation_euler="0.000, 0.000, 0.472"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="197.915, 179.866, 0.000" rotation_euler="0.000, 0.000, 2.966"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_c">
+			<transform position="237.262, 146.776, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_a">
+			<transform position="270.673, 134.738, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="254.996, 130.614, 0.000" rotation_euler="0.000, 0.000, 1.978"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="198.639, 187.462, -0.006" rotation_euler="0.000, 0.000, -0.506"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="231.620, 114.198, 0.000" rotation_euler="0.000, 0.000, 2.858"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-5.046, -1.471, -0.424"/>
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="235.879, 121.129, -0.195" rotation_euler="0.000, 0.000, -0.640"/>
+			<edit_mode_data group_object_guid="{B9B7E43F-AD8D-456B-B6AC-DB94ED2D365A}"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="tent_vlandia_c" old_prefab_name="">
+			<transform position="235.866, 121.038, 0.000" rotation_euler="0.000, 0.000, -1.270"/>
+			<physics shape="bo_tent_vlandia_c"/>
+			<components>
+				<meta_mesh_component name="tent_vlandia_c"/>
+			</components>
+			<children>
+				<game_entity name="ambient_sound_emitter" old_prefab_name="">
+					<transform position="2.248, 7.251, -0.424" rotation_euler="0.000, 0.000, 0.000" scale="2.307, 1.000, 1.000"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="mp_camera_start_pos">
+			<transform position="230.851, 149.106, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mp_camera_start_pos">
+			<transform position="235.780, 163.274, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_cart_c">
+			<transform position="238.165, 149.344, 1.660" rotation_euler="-0.012, -3.076, 0.042"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_a">
+			<transform position="237.598, 150.488, -0.028" rotation_euler="0.000, 0.000, 1.514"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_b">
+			<transform position="233.648, 146.947, 0.000" rotation_euler="0.000, 0.000, 0.244"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="156.838, 266.231, 0.340" rotation_euler="0.031, -0.008, -1.863"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="153.296, 263.811, 0.426" rotation_euler="0.031, -0.008, -1.863"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="151.743, 259.901, 0.340" rotation_euler="0.031, -0.008, -1.863"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="156.838, 256.551, 0.340" rotation_euler="0.031, -0.008, -1.863"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="159.159, 263.811, 0.426" rotation_euler="0.009, -0.009, -1.863"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_ramp_a">
+			<transform position="239.022, 157.258, 0.574" rotation_euler="-0.807, -0.028, -3.051"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_a">
+			<transform position="214.526, 142.599, 1.482" rotation_euler="0.000, 0.000, 0.873"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_c">
+			<transform position="218.302, 142.022, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="253.918, 155.153, -9.629" rotation_euler="-0.010, 0.008, -1.604"/>
+		</game_entity>
+		<game_entity prefab="castle_plank_wall_c">
+			<transform position="233.484, 179.728, -9.173" rotation_euler="0.000, 0.000, -0.217"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="253.541, 194.630, -0.006" rotation_euler="0.000, 0.000, -0.506"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="239.461, 149.714, 0.000" rotation_euler="-0.026, 0.000, -1.563"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_c">
+			<transform position="238.957, 150.729, 0.020" rotation_euler="-0.579, 0.000, -0.582"/>
+		</game_entity>
+		<game_entity prefab="bd_sack_heap_c">
+			<transform position="243.500, 143.491, 0.000" rotation_euler="0.000, 0.000, 0.199"/>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="197.915, 179.866, 0.000" rotation_euler="0.000, 0.000, 2.858"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="tent_vlandia_c">
+			<transform position="252.816, 187.034, 0.000" rotation_euler="0.000, 0.000, 2.858"/>
+			<children>
+				<game_entity _index_="0">
+					<scripts>
+						<script name="AmbientSoundEmitter">
+							<variables>
+								<variable name="Overrided Max Distance" value="20.000000"/>
+								<variable name="Overrided Min Distance" value="1.000000"/>
+							</variables>
+						</script>
+					</scripts>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity name="empty_object" old_prefab_name="">
+			<transform position="234.647, 153.217, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="334.854, 171.594, 0.340" rotation_euler="0.017, -0.003, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="159.584, 257.958, 0.158" rotation_euler="0.031, -0.008, -1.863"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="162.701, 256.551, 0.340" rotation_euler="0.009, -0.009, -1.863"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="173.562, 235.290, 0.340" rotation_euler="0.009, -0.009, -1.863"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="165.448, 257.958, 0.158" rotation_euler="0.009, -0.009, -1.863"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="345.812, 177.924, 0.340" rotation_euler="-0.006, -0.005, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="340.717, 171.594, 0.340" rotation_euler="-0.006, -0.005, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="348.558, 179.331, 0.158" rotation_euler="-0.006, -0.005, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="335.881, 235.266, 0.158" rotation_euler="0.015, 0.000, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="335.456, 241.119, 0.426" rotation_euler="-0.007, -0.002, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="315.626, 225.545, 0.426" rotation_euler="0.017, -0.003, 1.923"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="329.593, 250.799, 0.426" rotation_euler="0.015, 0.000, 2.338"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="179.887, 213.276, 0.158" rotation_euler="0.030, 0.002, -2.445"/>
+		</game_entity>
+		<game_entity name="castle_plank_wall_c" old_prefab_name="">
+			<transform position="219.144, 140.701, -9.577" rotation_euler="0.000, 0.000, -0.114"/>
+			<physics shape="bo_castle_plank_wall_c" override_material="wood"/>
+			<components>
+				<meta_mesh_component name="castle_plank_wall_c"/>
+			</components>
+		</game_entity>
+		<game_entity name="castle_plank_wall_c" old_prefab_name="">
+			<transform position="211.946, 144.863, -9.622" rotation_euler="0.000, 0.000, -0.874"/>
+			<physics shape="bo_castle_plank_wall_c" override_material="wood"/>
+			<components>
+				<meta_mesh_component name="castle_plank_wall_c"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="371.738, 37.057, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="369.170, 256.521, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_c">
+			<transform position="175.623, 576.629, 0.428" rotation_euler="0.000, 0.000, -3.136" scale="6.000, 6.040, 6.040"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_c"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mountain_border_d">
+			<transform position="558.894, 538.722, 0.000" rotation_euler="0.000, 0.000, -2.571" scale="17.612, 17.612, 17.612"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_d"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="197.432, 52.914, 0.340" rotation_euler="0.000, 0.000, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="205.273, 60.651, 0.158" rotation_euler="0.000, 0.000, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="221.585, 60.651, 0.158" rotation_euler="0.000, 0.000, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="209.434, 66.504, 0.426" rotation_euler="0.022, 0.002, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="215.722, 60.651, 0.158" rotation_euler="0.022, 0.002, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="212.976, 68.925, 0.340" rotation_euler="0.022, 0.002, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="207.881, 80.219, 0.340" rotation_euler="0.030, 0.002, -0.797"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="207.881, 62.594, 0.340" rotation_euler="0.022, 0.002, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="215.722, 70.331, 0.158" rotation_euler="0.022, 0.002, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="213.999, 75.864, 0.351" rotation_euler="0.000, 0.000, -1.220"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="213.745, 52.914, 0.340" rotation_euler="0.000, 0.000, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="212.976, 59.245, 0.340" rotation_euler="0.022, 0.002, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="207.881, 52.914, 0.340" rotation_euler="0.022, 0.002, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="218.839, 59.245, 0.340" rotation_euler="0.000, 0.000, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="209.434, 76.184, 0.426" rotation_euler="0.022, 0.002, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="215.297, 66.504, 0.426" rotation_euler="0.000, 0.000, -0.460"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="238.407, 75.864, 0.351" rotation_euler="0.000, 0.000, -0.205"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="335.881, 130.533, 0.158" rotation_euler="0.015, 0.000, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="333.135, 119.447, 0.340" rotation_euler="0.015, 0.000, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="329.593, 126.706, 0.426" rotation_euler="0.015, 0.000, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="322.686, 119.447, 0.340" rotation_euler="-0.006, -0.004, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="316.822, 129.127, 0.340" rotation_euler="0.016, -0.003, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="319.569, 130.533, 0.158" rotation_euler="0.016, -0.003, 1.953"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="314.073, 97.543, 0.340" rotation_euler="0.017, -0.003, 1.851"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="333.135, 129.127, 0.340" rotation_euler="0.015, 0.000, 2.265"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="319.168, 103.873, 0.340" rotation_euler="0.017, -0.003, 1.851"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="235.872, 280.903, 0.426" rotation_euler="0.000, 0.000, 3.108"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="236.297, 275.050, 0.158" rotation_euler="0.022, 0.002, 3.108"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="239.414, 273.643, 0.340" rotation_euler="0.000, 0.000, 3.108"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="250.275, 252.382, 0.340" rotation_euler="0.000, 0.000, 3.108"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="242.160, 275.050, 0.158" rotation_euler="0.000, 0.000, 3.108"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="176.870, 233.478, 0.340" rotation_euler="0.027, -0.008, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="168.331, 261.999, 0.426" rotation_euler="0.005, -0.010, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="182.734, 233.478, 0.340" rotation_euler="0.005, -0.010, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="198.278, 249.488, 0.340" rotation_euler="0.024, -0.009, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="190.575, 241.215, 0.158" rotation_euler="0.005, -0.010, -2.230"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="194.735, 247.068, 0.426" rotation_euler="0.024, -0.009, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="193.183, 243.158, 0.340" rotation_euler="0.024, -0.009, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="201.024, 250.895, 0.158" rotation_euler="0.024, -0.009, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="198.278, 239.808, 0.340" rotation_euler="0.024, -0.009, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="194.735, 256.748, 0.426" rotation_euler="0.024, -0.009, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="180.768, 231.494, 0.426" rotation_euler="0.028, -0.008, -2.333"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="200.599, 247.068, 0.426" rotation_euler="0.002, -0.011, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="201.024, 241.215, 0.158" rotation_euler="0.024, -0.009, -1.918"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="185.334, 231.174, 0.351" rotation_euler="0.011, -0.002, -3.093"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_e">
+			<transform position="678.764, 52.011, -5.284" rotation_euler="0.000, 0.000, -0.225" scale="43.060, 43.060, 43.060"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_e"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mountain_border_e">
+			<transform position="515.605, 1017.847, -5.286" rotation_euler="0.000, 0.000, -0.225" scale="43.060, 43.060, 43.060"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_e"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mountain_border_b">
+			<transform position="11.423, 517.739, 3.019" rotation_euler="0.000, 0.000, -0.223" scale="6.538, 6.538, 6.538"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_b"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mountain_border_c">
+			<transform position="-201.207, 416.447, 0.601" rotation_euler="0.000, 0.000, -1.264" scale="6.043, 6.043, 6.043"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_c"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mountain_border_long_b">
+			<transform position="-175.309, 769.894, 0.000" rotation_euler="0.000, 0.000, -2.139" scale="7.875, 7.875, 7.875"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_long_b"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mountain_border_long_b">
+			<transform position="990.458, 658.214, 0.000" rotation_euler="0.000, 0.000, 0.403" scale="7.875, 7.875, 7.875"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_long_b"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="193.121, 76.184, 0.426" rotation_euler="0.022, 0.002, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="199.409, 70.331, 0.158" rotation_euler="0.022, 0.002, -0.772"/>
+		</game_entity>
+		<game_entity prefab="mp_spawnpoint">
+			<tags>
+				<tag name="attacker"/>
+				<tag name="spawnpoint"/>
+			</tags>
+			<transform position="196.663, 59.245, 0.340" rotation_euler="0.022, 0.002, -0.772"/>
+		</game_entity>
+	</entities>
+	<terrain enabled="true" node_dimension_x="4" node_dimension_y="4" node_size="100.000" lod_multiplier="1.000" min_height="-100.000" max_height="500.000" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" colormap_detail_level="-1" ao_intensity="4.000">
+		<outer_mesh>
+			<variable name="outer_mesh_name" value=""/>
+			<variable name="diffuse1_texture_name" value=""/>
+			<variable name="diffuse2_texture_name" value=""/>
+			<variable name="diffuse3_texture_name" value=""/>
+			<variable name="areamap_texture_name" value=""/>
+			<variable name="splatmap_texture_name" value=""/>
+			<variable name="splatmap_normal_name" value=""/>
+			<variable name="horizon_mesh_diffuse_1_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_2_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_3_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_tile_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_power" value="1.000"/>
+			<variable name="horizon_mesh_height" value="1.000"/>
+		</outer_mesh>
+		<layers version="1">
+			<layer name="flora_habitat_a">
+				<summer is_enabled="true" name="flora_habitat_a" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="grass" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_grass_c_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_grass_c_n"/>
+						<texture type="specularmap" name="ground_grass_c_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_grass_c_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="flora_grass_a" index="0" density="200.000" seed_index="1" colony_radius="0.000" colony_threshold="0.000" size_min="0.650, 0.650, 0.650" size_max="1.000, 1.000, 1.000" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_green__mix" index="1" density="45.000" seed_index="2" colony_radius="0.000" colony_threshold="0.000" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_plant__mix" index="2" density="25.000" seed_index="3" colony_radius="0.000" colony_threshold="0.000" size_min="0.500, 0.500, 0.500" size_max="1.200, 1.200, 1.200" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_green__mix_flower" index="3" density="35.000" seed_index="6" colony_radius="0.000" colony_threshold="0.000" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_tree_pines_mix" index="4" density="200.000" seed_index="20" colony_radius="5.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="flora_habitat_a" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="flora_habitat_a" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="flora_habitat_a" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="dirt path">
+				<summer is_enabled="true" name="dirt path" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_dirt_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_dirt_n"/>
+						<texture type="specularmap" name="ground_forest_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="none"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="dirt path" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="dirt path" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="dirt path" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+		</layers>
+		<nodes>
+			<node idx="0" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="1" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="1" occluders_enabled="true" layer_is_used_mask_summer="3" layer_is_used_mask_fall="3" layer_is_used_mask_winter="3" layer_is_used_mask_spring="3" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="0"/>
+						<variable layer="3" value="0"/>
+						<variable layer="4" value="0"/>
+						<variable layer="5" value="0"/>
+						<variable layer="6" value="0"/>
+						<variable layer="7" value="0"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+		</nodes>
+	</terrain>
+	<editor_data editor_camera_position="226.379, 134.398, 13.836" editor_camera_elevation="0.110" editor_camera_bearing="1.774" editor_camera_forward="-0.113, 0.886, -0.449" author="" comment="">
+		<group_objects>
+			<group_object name="Group Object" guid="{B9B7E43F-AD8D-456B-B6AC-DB94ED2D365A}"/>
+		</group_objects>
+	</editor_data>
+	<camera_data near_plane="0.100" far_plane="100000.000"/>
+	<Paths/>
+</scene>
+
